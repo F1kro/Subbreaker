@@ -11,16 +11,23 @@
 
 ## Cara Instalasi dan Penggunaan
 
-### 1. Clone Repository
+### Sebelum menggunakan pastikan golang terinstall terlebih dahulu di pc / komputer / os kalian
+### untuk step penginstalan dan setup golang cek sendiri  di google
 
-Untuk menggunakan alat ini, kamu perlu meng-clone repository ini ke sistem kamu:
+### 1. Clone Repository
+Untuk menggunakan, clone repository ini ke pc kalian:
 
 git clone https://github.com/F1kro/Subbreaker.git
 cd subdomain-breaker
 
 ### 2. Jalankan Subbreaker
--> Untuk Windows tinggal jalankan subbreaker.exe 
--> Untuk Linux tinggal jalankan subbreaker lewat CMD dengan command : 
+-> Untuk Windows :
+- ./subbreaker.exe
+- ./subbreaker.exe -d domain.com (-d domain)
+- ./subbreaker.exe -d domain.com -o output.txt (-o output .txt) 
+- ./subbreaker.exe -h (-h help)
+  
+-> Untuk Linux   : 
 - ./subbreaker (banner)
 - ./subbreaker -d domain.com (-d domain)
 - ./subbreaker -d domain.com -o output.txt (-o output .txt) 
