@@ -18,7 +18,7 @@
 Untuk menggunakan, clone repository ini ke pc kalian:
 
 git clone https://github.com/F1kro/Subbreaker.git
-cd subdomain-breaker
+cd Subbreaker
 
 ### 2. Jalankan Subbreaker
 -> Untuk Windows :
