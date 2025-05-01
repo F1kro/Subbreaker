@@ -15,7 +15,7 @@
 
 Untuk menggunakan alat ini, kamu perlu meng-clone repository ini ke sistem kamu:
 
-git clone https://github.com/username/subdomain-breaker.git
+git clone https://github.com/F1kro/Subbreaker.git
 cd subdomain-breaker
 
 ### 2. Jalankan Subbreaker
