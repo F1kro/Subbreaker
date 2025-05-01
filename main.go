@@ -24,7 +24,6 @@ func tampilkanBanner() {
 	fmt.Println("╚══════════════════════════════════════════╝")
 }
 
-// Bantuan penggunaan
 func tampilkanHelp() {
 	fmt.Println("Penggunaan:")
 	fmt.Println("  -d <domain>        : domain target (wajib)")
@@ -32,7 +31,6 @@ func tampilkanHelp() {
 	fmt.Println("  -h                 : tampilkan bantuan")
 }
 
-// Validasi nama file output
 func validasiOutputFile(nama string) error {
 	if !strings.HasSuffix(nama, ".txt") {
 		return fmt.Errorf("format file output harus .txt")
@@ -44,7 +42,7 @@ func validasiOutputFile(nama string) error {
 	return nil
 }
 
-// Ambil dari crt.sh
+//  crt.sh
 func ambilDariCRTSh(domain string) []string {
 	url := fmt.Sprintf("https://crt.sh/?q=%%25.%s&output=json", domain)
 	resp, err := http.Get(url)
@@ -76,7 +74,7 @@ func ambilDariCRTSh(domain string) []string {
 	return unik
 }
 
-// Ambil dari findsubdomains
+// findsubdomains
 func ambilDariFindSubdomains(domain string) []string {
 	url := fmt.Sprintf("https://findsubdomains.com/api/subdomains/%s", domain)
 	req, _ := http.NewRequest("GET", url, nil)
