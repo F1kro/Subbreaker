@@ -20,7 +20,7 @@ func tampilkanBanner() {
 	fmt.Println("╔══════════════════════════════════════════╗")
 	fmt.Println("║     SUBDOMAIN ENUMERATOR & PORT SCAN     ║")
 	fmt.Println("║             by : Fiqro Najiah            ║")
-	fmt.Println("║     Github : github.com/EscapesCode      ║")
+	fmt.Println("║         Github : github.com/F1kro        ║")
 	fmt.Println("╚══════════════════════════════════════════╝")
 }
 
